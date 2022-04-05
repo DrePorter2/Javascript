@@ -21,7 +21,7 @@ function if_function() {
 }
 function Weight_function() {
     Weight = document.getElementById("Weight").value;
-    if (Weight >= 185) {
+    if (Weight <= 185) {
         Ride = "You are within the weight limit to ride."
     }
     else {
