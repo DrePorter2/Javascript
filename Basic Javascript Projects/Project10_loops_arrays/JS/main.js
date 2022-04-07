@@ -37,8 +37,8 @@ let snare = { // This function creates an object using the let keyword.
     make: "System Blue ",
     model: "Double Snare ",
     color: "black ",
-    description: function() {
+    description : function() {
         return "The snare is a " + this.color + this.make + this.model;
-    }
+     }
 };
-document.getElementById("snare_object").innerHTML = snare.desctiption;
+document.getElementById("snare_object").innerHTML = snare.desctiption();
