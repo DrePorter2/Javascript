@@ -41,4 +41,4 @@ let snare = { // This function creates an object using the let keyword.
         return "The snare is a " + this.color + this.make + this.model;
      }
 };
-document.getElementById("snare_object").innerHTML = snare.desctiption();
+document.getElementById("snare_object").innerHTML = snare.description();
